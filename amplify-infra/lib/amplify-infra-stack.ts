@@ -17,7 +17,7 @@ export class AmplifyInfraStack extends Stack {
 
     const monorepo: amplify.CfnApp.EnvironmentVariableProperty = {
       name: 'AMPLIFY_MONOREPO_APP_ROOT',
-      value: 'frontend',
+      value: 'apps/frontend',
     }
 
 
